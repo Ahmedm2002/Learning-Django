@@ -1,0 +1,11 @@
+body{
+  background-color: teal;
+  color:wheat;
+  padding: 5%;
+  margin: 20px auto;
+}
+
+h1{
+  text-align: center;
+  font-size: 2rem;
+}
