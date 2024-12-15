@@ -11,10 +11,10 @@ from django.shortcuts import render
 
 def home(request):
   # return HttpResponse('Hello World! Home Page')
-  return render(request, 'index.html')
+  return render(request, 'website/index.html')
 
 def aboutUs(request):
-  return render(request , 'about.html')
+  return render(request , 'website/about.html')
 
 def contactUs(request):
-  return render(request, 'contact.html')
+  return render(request, 'website/contact.html')
