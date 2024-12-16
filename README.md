@@ -162,4 +162,6 @@ Your Courses:
 - **Features** include variable injection, loops, and conditions.
 - **Example** shows how data can be dynamically displayed in HTML using simple syntax.
 
-Happy coding! 🚀 Let me know if you need more details or examples!
+## Migration Error on Server Start
+
+- You never interact with the databases diretly in django instead there is a orm in django which talks to the database on your behalf

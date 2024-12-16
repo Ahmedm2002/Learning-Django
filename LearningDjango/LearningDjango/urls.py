@@ -24,4 +24,8 @@ urlpatterns = [
     path('contactUs/', views.contactUs, name='contactUs'),
     path('aboutUs/', views.aboutUs , name='aboutUs'),
     path('firstApp/', include('firstApp.urls')),
+
+
+    #  This path for reloading must be added at the last as it sends mulitple gzips and this is not needed in the production as there is no need of hot reload
+    path('__reload__/', include('django_browser_reload.urls')),
 ]
